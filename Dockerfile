@@ -1,4 +1,4 @@
-FROM aliak00/ldc
+FROM aliak00/ldc:1.0.0
 
 MAINTAINER Ali Akhtarzada <ali.akhtarzada@gmail.com>
 
