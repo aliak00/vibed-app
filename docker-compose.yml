@@ -1,0 +1,11 @@
+version: '2'
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - ./server/:/home/app/
+      - /home/app/.dub
+    ports:
+      - "5050:5050"
+    command: dub --compiler=ldc2

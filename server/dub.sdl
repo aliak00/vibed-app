@@ -1,0 +1,7 @@
+name "server"
+description "A simple vibe.d server application."
+authors "Ali Akhtarzada"
+copyright "Copyright © 2016, Ali Akhtarzada"
+license "proprietary"
+dependency "vibe-d" version="~>0.7.28"
+versions "VibeDefaultMain"
