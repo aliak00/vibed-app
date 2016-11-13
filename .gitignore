@@ -5,3 +5,6 @@ __dummy.html
 *.o
 *.obj
 __test__*__
+
+server/dub.selections.json
+server/server
