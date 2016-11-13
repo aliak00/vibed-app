@@ -1,0 +1,6 @@
+*
+
+!server/public
+!server/source
+!server/views
+!server/dub.sdl
