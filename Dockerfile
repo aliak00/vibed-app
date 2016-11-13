@@ -15,3 +15,5 @@ COPY server .
 
 RUN mkdir .dub \
 	&& dub build --compiler="$D_COMPILER"
+
+CMD dub --compiler="$D_COMPILER"

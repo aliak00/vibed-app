@@ -8,4 +8,3 @@ services:
       - /home/app/.dub
     ports:
       - "5050:5050"
-    command: dub --compiler="ldc2"
