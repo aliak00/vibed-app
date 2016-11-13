@@ -14,6 +14,7 @@ USER app
 WORKDIR /home/app/
 COPY server .
 
+# pre heat the over
 RUN dub build --compiler="$D_COMPILER"
 
 CMD dub --compiler="$D_COMPILER"
